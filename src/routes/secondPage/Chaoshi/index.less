@@ -1,0 +1,108 @@
+/* pages/markets/markets.wxss */
+.detail {
+  padding: 0 40rpx;
+  font-size: 14px;
+}
+/* basic-info */
+.basicInfo {
+  height: 82px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 40px;
+  margin-top: 45px;
+  background: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+}
+/* logo */
+.marketLogo {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.info {
+  float: left;
+}
+.name {
+  float: left;
+  width: 100%;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 9px;
+}
+/* 商品列表 */
+.goodsInfo {
+  width: 100%;
+  position: fixed;
+  top: 138px;
+  bottom: 0;
+  left: 0;
+  padding-left: 10px;
+}
+/* 分类列表 */
+.classList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 80px;
+    padding-bottom: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fafafa;
+}
+/* 分类单项 */
+.classItem {
+  color: #666666;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+/* 分类选中 */
+.active {
+  color: red;
+  background: #fff;
+  font-weight: bold;
+}
+/* 商品信息列表 */
+.goodsList {
+  margin-left: 80px;
+  height: 100%;
+  overflow-y: scroll;
+}
+.goodsList .oneGood {
+  padding: 15px 10px 15px 0;
+  overflow: hidden;
+}
+.goodsList .goodImg {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-right: 10px;
+}
+.goodsList .oneGood .name {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.goodsList .oneGood .info {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.goodsList .oneGood .danjia {
+  float: left;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  width: 100%;
+  color: #ff3434;
+}
